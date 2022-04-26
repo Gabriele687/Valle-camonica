@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <title>Indicazioni</title>
+    <script type="text/javascript">
+      function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+              x.className += " responsive";
+          } else {
+              x.className = "topnav";
+          }
+      }
+</script>
+    
+    
+    
+    <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
+    <style>
+        #city-regions {
+                    width: 100%;
+                    height: 40px;
+                    cursor: default;
+                    font-family: "-apple-system-font", Futura, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+                }
+                
+                #city-regions div {
+                    float: left;
+                    width: 50%;
+                    height: 100%;
+                    text-align: center;
+                    background-color: white;
+                }
+                
+                #city-regions p {
+                    margin-top: 9px;
+                    margin-bottom: 10px;
+                }
+                
+                #city-regions div.selected-city {
+                    background-color: #08f;
+                    color: #f8f9f0;
+                }
+                
+                #map {
+                    width: 100%;
+                    height: 560px;
+                }
+                
+                        </style>
+            
+            
+            
+            
+            
+  </head>
+  <body>
+    <!--<div class="topnav" id="myTopnav">
+        <a href="indicazioni.html" class="active">Indicazioni</a>
+      <div class="dropdown">
+        <button class="dropbtn">Luoghi 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="ChiesaSantaMariaPisogne.html">Chiesa di Santa Maria</a>
+            <a href="TorreVescovo.html">Torre Del Vescovo</a>
+            <a href="TermeBoario.html">Terme di Boario</a>
+            <a href="CapoDiLago.html">Capo di lago</a>
+            <a href="ParcoLuine.html">Parco di Luine</a>
+            <a href="Anfiteatro.html">Anfiteatro</a>
+            <a href="CastelloBreno.html">Castello di Breno</a>
+            <a href="IncisioniCapo.html">Incisioni Capo di Ponte</a>
+            <a href="MuseoWWI.html">Museo Prima Guerra Mondiale</a>
+            <a href="ParcoStelvio.html">Parco dello Stelvio</a>
+        </div>
+      </div> 
+
+    
+
+      
+  
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    -->
+
+    <div class="wrapper">
+      <!--<h1>Indicazioni per la Valcamonica</h1>-->
+      <hr />
+      <div style="margin-bottom: 30px">
+        Per raggiungere la Valcamonica ci sono varie strade:
+        <ul>
+          <li>
+            Da Iseo o Sarnico si accosta il lago Iseo e si raggiunge Pisogne
+          </li>
+          <li>Dalla Valtellina passando l'Aprica si raggiunge Edolo</li>
+          <li>
+            Dal Trentino Alto Adige si raggiunge la Valcamonica dal passo del
+            Tonale
+          </li>
+        </ul>
+      </div>
+      <img
+        width="100%"
+        class="Cartina indicazioni"
+        src="CartinaIndicazioni.jpg"
+        alt="Cartina Indicazioni"
+      />
+      <iframe
+        width="100%"
+        class="Pisogne"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26015.357981999576!2d10.095652737872545!3d45.80821706280389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4783d9af4905664f%3A0x9f18d096cd15c10a!2s25055%20Pisogne%20BS!5e1!3m2!1sit!2sit!4v1617010127405!5m2!1sit!2sit"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+      
+      <iframe
+        width="100%"
+        class="Edolo"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12921.247931071037!2d10.322824294507319!3d46.17718136585216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4783b04cb1d81e8b%3A0xfb05a2a8ec29005b!2s25048%20Edolo%20BS!5e1!3m2!1sit!2sit!4v1617010151158!5m2!1sit!2sit"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+      <iframe
+        width="100%"
+        class="Passo del Tonale"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6450.948797550512!2d10.582777578577849!3d46.259473216473516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4782540b09c79ec9%3A0x3c2b1934667a537e!2s38029%20Passo%20del%20Tonale%20TN!5e1!3m2!1sit!2sit!4v1617010173130!5m2!1sit!2sit"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+
+    <footer class="homefooter" style="margin-top: -1px">
+      <div id="colonne" style="overflow: hidden">
+        <div class="fcol">
+          <h4 style="text-align: center; margin-bottom: -3px">Gruppo BGB</h4>
+          <p style="font-size: 13px">
+            Applicazione creata da Gervasoni Gabriele su base
+            del sito creato dal Gruppo Bontempi, Gervasoni, Bottò per il progetto di
+            educazione civica del secondo quadrimestre anno scolastico
+            2020-2021, argomento scelto: I luoghi d'interesse della Valcamonica
+          </p>
+        </div>
+        <div class="fcol">
+          <h4 style="text-align: center">Fonti</h4>
+          <p style="font-size: 12px">Fonti qui sulla pagina home</p>
+        </div>
+        <div class="fcol">
+          <h4>Contattaci</h4>
+            <li style="list-style-type: none;">
+                <h6 class="Contatti" >(Tieni premuto sui nomi)</h6>
+              <a
+                class="Contatti"
+                href="mailto:fabio.botto-1920-2a-inf@olivelliputelli.it"
+                >Fabio Bottò</a
+              >
+            </li><br>
+            <li style="list-style-type: none">
+              <a
+                class="Contatti"
+                href="mailto:pietro.bobntempi-1920-2a-inf@olivelliputelli.it"
+                >Pietro Bontempi</a
+              >
+            </li><br>
+            <li style="list-style-type: none">
+              <a
+                class="Contatti"
+                href="mailto:gabriele.gervasoni-1920-2a-inf@olivelliputelli.it"
+                >Gabriele Gervasoni</a
+              >
+            </li>
+        </div>
+      </div>
+      <div style="text-align: center; padding-bottom: 12px; padding-top: 15px">
+        <p style="font-size: 12px">All rights reserved by @GruppoBGB 2021</p>
+      </div>
+    </footer>
+  </body>
+</html>

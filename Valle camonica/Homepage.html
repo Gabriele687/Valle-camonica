@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <title>Homepage</title>
+    <script type="text/javascript">
+        
+      function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+              x.className += " responsive";
+          } else {
+              x.className = "topnav";
+          }
+      }
+
+
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+              showSlides((slideIndex += n));
+            }
+
+            function currentSlide(n) {
+              showSlides((slideIndex = n));
+            }
+
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              var captionText = document.getElementById("caption");
+              if (n > slides.length) {
+                slideIndex = 1;
+              }
+              if (n < 1) {
+                slideIndex = slides.length;
+              }
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex - 1].style.display = "block";
+              dots[slideIndex - 1].className += " active";
+              captionText.innerHTML = dots[slideIndex - 1].alt;
+            }
+          </script>
+
+  </head>
+  <body>
+   <div class="topnav" id="myTopnav" style="border-radius: 10px; -moz-border-radius: 10px; /* firefox */ -webkit-border-radius: 10px; /* safari, chrome */">
+     <a href="Homepage.html" class="active" style="border-radius: 10px; -moz-border-radius: 10px; /* firefox */ -webkit-border-radius: 10px; /* safari, chrome */ ">Home</a>
+     <a href="Homepage.html" style="width: 33%; margin-left: 25px;   margin-right: 15px; margin-top: -5px; margin-bottom: -10px; border-radius: 10px; -moz-border-radius: 10px; /* firefox */ -webkit-border-radius: 10px; /* safari, chrome */"><img src="logo.jpg" style="width: 110%; margin-bottom: 5px;  border-radius: 10px; -moz-border-radius: 10px; /* firefox */ -webkit-border-radius: 10px; /* safari, chrome */"/></a>
+     <div class="dropdown">
+       <button class="dropbtn" style="border-radius: 10px; -moz-border-radius: 10px; /* firefox */ -webkit-border-radius: 10px; /* safari, chrome */">Luoghi
+         <i class="fa fa-caret-down"></i>
+       </button>
+       <div class="dropdown-content" style="border-radius: 10px; -moz-border-radius: 10px; /* firefox */ -webkit-border-radius: 10px; /* safari, chrome */">
+         <a href="ChiesaSantaMariaPisogne.html">Chiesa di Santa Maria</a>
+           <a href="TorreVescovo.html">Torre Del Vescovo</a>
+           <a href="TermeBoario.html">Terme di Boario</a>
+           <a href="CapoDiLago.html">Capo di lago</a>
+           <a href="ParcoLuine.html">Parco di Luine</a>
+           <a href="Anfiteatro.html">Anfiteatro</a>
+           <a href="CastelloBreno.html">Castello di Breno</a>
+           <a href="IncisioniCapo.html">Incisioni Capo di Ponte</a>
+           <a href="MuseoWWI.html">Museo Prima Guerra Mondiale</a>
+           <a href="ParcoStelvio.html">Parco dello Stelvio</a>
+       </div>
+     </div>
+  </div>
+
+    <div class="wrapper">
+      <h1 style="font-size: 23px;">I beni culturali della ValCamonica</h1>
+      <p>
+        La Valle Camonica è un territorio da sempre interessato da iniziative
+        culturali. Ciò si deve alla grande storia di quest'area in cui si
+        rilevano tracce di insediamenti umani sin dall'antichità e di cui le
+        incisioni rupestri rinvenute in vari comuni, sito riconosciuto
+        dall'UNESCO, ne sono la testimonianza. La Valcamonica è stata luogo di
+        passaggio e villeggiatura anche in epoca romana, non sono pochi,
+        infatti, gli edifici che risalgono a questo periodo, tra i più
+        significativi sicuramente il Parco del teatro e dell'anfiteatro a
+        Cividate Camuno, ma anche il Santuario di Minerva a Breno.
+        Successivamente si è assistito, come in gran parte del territorio
+        lombardo, ad una florida architettura e pittura connessa alla religione
+        cattolica, con chiese, santuari e cappelle dal significativo valore
+        artistico in ogni comune.
+      </p>
+
+        <div class="container">
+        <div class="mySlides" style="display: block">
+          <img
+            src="Galleria1.jpg"
+            class="center"
+            alt="Monti della Valle"
+          />
+        </div>
+
+        <div class="mySlides" >
+          <img
+            src="Galleria2.jpg"
+            class="center"
+            alt="Vista della Valle dai monti di Esine"
+          />
+        </div>
+
+        <div class="mySlides">
+          <img
+            src="Galleria3.jpg"
+            class="center"
+            alt="Incisioni Rupestri"
+          />
+        </div>
+
+        <div class="mySlides">
+          <img
+            src="Galleria4.jpg"
+            class="center"
+            alt="Lungolago di Pisogne"
+          />
+        </div>
+
+        <div class="mySlides">
+          <img
+            src="Galleria5.jpg"
+            class="center"
+            alt="Un hotel in Valcamonica"
+          />
+        </div>
+
+        <div class="mySlides">
+          <img
+            src="Galleria6.jpeg"
+            class="center"
+            alt="Parco delle Terme di Boario"
+          />
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <br />
+
+
+        <div class="row">
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="Galleria1.jpg"
+              style="width: 100%"
+              onclick="currentSlide(1)"
+              alt="AltaValle"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="Galleria2.jpg"
+              style="width: 100%"
+              onclick="currentSlide(2)"
+              alt="Valle"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="Galleria3.jpg"
+              style="width: 100%"
+              onclick="currentSlide(3)"
+              alt="Incisioni"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="Galleria4.jpg"
+              style="width: 100%"
+              onclick="currentSlide(4)"
+              alt="PisogneLungolago"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="Galleria5.jpg"
+              style="width: 100%"
+              onclick="currentSlide(5)"
+              alt="Albergo"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="Galleria6.jpeg"
+              style="width: 100%"
+              onclick="currentSlide(6)"
+              alt="ParcoTermeDarfo"
+            />
+          </div>
+        </div>
+      </div>
+      
+
+
+
+
+
+
+    
+        <div style="
+                  box-shadow:  10px  10px 5px #dedede,
+                                -10px -10px 5px #dedede,
+                                 10px -10px 5px #dedede,
+                                -10px  10px 5px #dedede;
+          background-color: var(--colorcontainer);;
+          padding-top: 2px;
+          padding-bottom: 2px;
+          margin-bottom: 20px;">
+          <h2 style="text-align: center; font-size: 100%;">
+            Mappa interattiva:
+          </h2>
+          <p style="text-align: center; font-size: 100%;">
+            Cliccare sui punti della mappa per più di info in alto menù a tendina con descrizione dei luoghi
+          </p>
+        </div><br>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1QIU1UReIvjvrZ3SQntXVvkjaCWaSdKAj" width="100%" height="560"></iframe>
+       <!-- <img
+          class="immaginecartina" 
+          src="Cartina.png"
+          usemap="#image-map"
+        >
+        <map name="image-map" >
+          <area
+            alt="MuseoGuerraBianca"
+            title="MuseoGuerraBianca"
+            href="MuseoWWI.html"
+            coords="556,278,29"
+            shape="circle"
+          />
+          <area
+            alt="ParcoStelvio"
+            title="ParcoStelvio"
+            href="ParcoStelvio.html"
+            coords="671,125,58"
+            shape="circle"
+          />
+          <area
+            alt="Terme_Boario"
+            title="Terme_Boario"
+            href="TermeBoario.html"
+            coords="278,886,17"
+            shape="circle"
+          />
+          <area
+            alt="CapoDiLago_Angolo"
+            title="CapoDiLago_Angolo"
+            href="./Luoghi/CapoDiLago.html"
+            coords="229,862,18"
+            shape="circle"
+          />
+          <area
+            alt="ParcoLuine_Boario"
+            title="ParcoLuine_Boario"
+            href="./Luoghi/ParcoLuine.html"
+            coords="238,899,16"
+            shape="circle"
+          />
+          <area
+            alt="Chiesa_Pisogne"
+            title="Chiesa_Pisogne"
+            href="ChiesaSantaMariaPisogne.html"
+            coords="177,992,19"
+            shape="circle"
+          />
+          <area
+            alt="Torre_Pisogne"
+            title="Torre_Pisogne"
+            href="TorreVescovo.html"
+            coords="167,954,17"
+            shape="circle"
+          />
+          <area
+            alt="Castello_Breno"
+            title="Castello_Breno"
+            href="CastelloBreno.html"
+            coords="444,751,31"
+            shape="circle"
+          />
+          <area
+            alt="Anfiteatro_Cividate"
+            title="Anfiteatro_Cividate"
+            href="Anfiteatro.html"
+            coords="378,784,29"
+            shape="circle"
+          />
+          <area
+            alt="Incisione_CapoDiPonte"
+            title="Incisione_CapoDiPonte"
+            href="IncisioniCapo.html"
+            coords="456,625,38"
+            shape="circle"
+          />
+        </map>-->
+      
+    </div>
+    <img src="Home1.jpg" style="width: 100%; margin-bottom: 50px;" />
+    <img src="Home2.jpg"  style="width: 100%"/>
+    
+
+    <footer class="homefooter" style="margin-top: -1px">
+      <div id="colonne" style="overflow: hidden">
+        <div class="fcol">
+          <h4 style="text-align: center; margin-bottom: -3px">Gruppo BGB</h4>
+          <p style="font-size: 13px">
+            Applicazione creata da Gervasoni Gabriele e ricreazione del sito web su base
+            di un sito creato dal Gruppo Bontempi, Gervasoni, Bottò per il progetto scolastico di
+            educazione civica del secondo quadrimestre anno scolastico
+            2020-2021, argomento scelto: I luoghi d'interesse della Valcamonica
+          </p>
+        </div>
+        <div class="fcol">
+          <h4 style="text-align: center">Fonti</h4>
+          <a class="Contatti" href="Fonti.html">Fonti di tutte le pagine</a>
+        </div>
+        <br>
+        <div class="fcol">
+          <h4>Contattaci</h4>
+            <li style="list-style-type: none;">
+                <h6 class="Contatti" >(Tieni premuto sui nomi)</h6>
+              <a
+                class="Contatti"
+                href="mailto:fabio.botto-1920-2a-inf@olivelliputelli.it"
+                >Fabio Bottò</a
+              >
+            </li><br>
+            <li style="list-style-type: none">
+              <a
+                class="Contatti"
+                href="mailto:pietro.bobntempi-1920-2a-inf@olivelliputelli.it"
+                >Pietro Bontempi</a
+              >
+            </li><br>
+            <li style="list-style-type: none">
+              <a
+                class="Contatti"
+                href="mailto:gabriele.gervasoni-1920-2a-inf@olivelliputelli.it"
+                >Gabriele Gervasoni</a
+              >
+            </li>
+        </div>
+      </div>
+      <div style="text-align: center; padding-bottom: 12px; padding-top: 15px">
+        <p style="font-size: 12px">All rights reserved by @GruppoBGB 2021</p>
+      </div>
+    </footer>
+  </body>
+</html>

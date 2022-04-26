@@ -1,0 +1,942 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0678F9D269DCA0F0054C95D /* Homepage.html in Resources */ = {isa = PBXBuildFile; fileRef = E0678F9C269DCA0F0054C95D /* Homepage.html */; };
+		E0678FA6269DCA370054C95D /* Fonti.html in Resources */ = {isa = PBXBuildFile; fileRef = E0678F9E269DCA370054C95D /* Fonti.html */; };
+		E0678FA7269DCA370054C95D /* Preservazione.html in Resources */ = {isa = PBXBuildFile; fileRef = E0678F9F269DCA370054C95D /* Preservazione.html */; };
+		E0678FA8269DCA370054C95D /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = E0678FA0269DCA370054C95D /* style.css */; };
+		E0678FA9269DCA370054C95D /* jquery.rwdImageMaps.min.js in Resources */ = {isa = PBXBuildFile; fileRef = E0678FA1269DCA370054C95D /* jquery.rwdImageMaps.min.js */; };
+		E0678FAA269DCA370054C95D /* Chi siamo.html in Resources */ = {isa = PBXBuildFile; fileRef = E0678FA2269DCA370054C95D /* Chi siamo.html */; };
+		E0678FAB269DCA370054C95D /* indicazioni.html in Resources */ = {isa = PBXBuildFile; fileRef = E0678FA3269DCA370054C95D /* indicazioni.html */; };
+		E0678FAC269DCA370054C95D /* jquery.rwdImageMaps.js in Resources */ = {isa = PBXBuildFile; fileRef = E0678FA4269DCA370054C95D /* jquery.rwdImageMaps.js */; };
+		E0678FAD269DCA370054C95D /* ciclismo.html in Resources */ = {isa = PBXBuildFile; fileRef = E0678FA5269DCA370054C95D /* ciclismo.html */; };
+		E0679034269DCAD20054C95D /* CapoDiLago.html in Resources */ = {isa = PBXBuildFile; fileRef = E067902A269DCAD20054C95D /* CapoDiLago.html */; };
+		E0679035269DCAD20054C95D /* IncisioniCapo.html in Resources */ = {isa = PBXBuildFile; fileRef = E067902B269DCAD20054C95D /* IncisioniCapo.html */; };
+		E0679036269DCAD20054C95D /* ParcoLuine.html in Resources */ = {isa = PBXBuildFile; fileRef = E067902C269DCAD20054C95D /* ParcoLuine.html */; };
+		E0679037269DCAD20054C95D /* TermeBoario.html in Resources */ = {isa = PBXBuildFile; fileRef = E067902D269DCAD20054C95D /* TermeBoario.html */; };
+		E0679038269DCAD20054C95D /* MuseoWWI.html in Resources */ = {isa = PBXBuildFile; fileRef = E067902E269DCAD20054C95D /* MuseoWWI.html */; };
+		E0679039269DCAD20054C95D /* ParcoStelvio.html in Resources */ = {isa = PBXBuildFile; fileRef = E067902F269DCAD20054C95D /* ParcoStelvio.html */; };
+		E067903A269DCAD20054C95D /* CastelloBreno.html in Resources */ = {isa = PBXBuildFile; fileRef = E0679030269DCAD20054C95D /* CastelloBreno.html */; };
+		E067903B269DCAD20054C95D /* Anfiteatro.html in Resources */ = {isa = PBXBuildFile; fileRef = E0679031269DCAD20054C95D /* Anfiteatro.html */; };
+		E067903C269DCAD20054C95D /* ChiesaSantaMariaPisogne.html in Resources */ = {isa = PBXBuildFile; fileRef = E0679032269DCAD20054C95D /* ChiesaSantaMariaPisogne.html */; };
+		E067903D269DCAD20054C95D /* TorreVescovo.html in Resources */ = {isa = PBXBuildFile; fileRef = E0679033269DCAD20054C95D /* TorreVescovo.html */; };
+		E06790EE269DCD690054C95D /* luine2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790B1269DCD690054C95D /* luine2.jpg */; };
+		E06790EF269DCD690054C95D /* Chiesa3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790B2269DCD690054C95D /* Chiesa3.jpg */; };
+		E06790F0269DCD690054C95D /* Mappa ciclabile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790B3269DCD690054C95D /* Mappa ciclabile.jpg */; };
+		E06790F1269DCD690054C95D /* Chiesa2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790B4269DCD690054C95D /* Chiesa2.jpg */; };
+		E06790F2269DCD690054C95D /* luine3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790B5269DCD690054C95D /* luine3.jpg */; };
+		E06790F3269DCD690054C95D /* Galleria5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790B6269DCD690054C95D /* Galleria5.jpg */; };
+		E06790F4269DCD690054C95D /* luine1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790B7269DCD690054C95D /* luine1.jpg */; };
+		E06790F5269DCD690054C95D /* torre4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790B8269DCD690054C95D /* torre4.jpg */; };
+		E06790F7269DCD690054C95D /* CartinaIndicazioni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790BB269DCD690054C95D /* CartinaIndicazioni.jpg */; };
+		E06790F8269DCD690054C95D /* Chiesa1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790BC269DCD690054C95D /* Chiesa1.jpg */; };
+		E06790F9269DCD690054C95D /* Galleria4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790BD269DCD690054C95D /* Galleria4.jpg */; };
+		E06790FA269DCD690054C95D /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = E06790BE269DCD690054C95D /* favicon.ico */; };
+		E06790FB269DCD690054C95D /* luine4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790BF269DCD690054C95D /* luine4.jpg */; };
+		E06790FC269DCD690054C95D /* torre1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790C0269DCD690054C95D /* torre1.jpg */; };
+		E06790FD269DCD690054C95D /* Chiesa4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790C1269DCD690054C95D /* Chiesa4.jpg */; };
+		E06790FE269DCD690054C95D /* Galleria1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790C2269DCD690054C95D /* Galleria1.jpg */; };
+		E06790FF269DCD690054C95D /* Galleria3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790C3269DCD690054C95D /* Galleria3.jpg */; };
+		E0679100269DCD690054C95D /* torre2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790C4269DCD690054C95D /* torre2.jpg */; };
+		E0679101269DCD690054C95D /* torre3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790C5269DCD690054C95D /* torre3.jpg */; };
+		E0679102269DCD690054C95D /* Galleria2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790C6269DCD690054C95D /* Galleria2.jpg */; };
+		E0679103269DCD690054C95D /* terme3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790C7269DCD690054C95D /* terme3.jpg */; };
+		E0679104269DCD690054C95D /* terme2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790C8269DCD690054C95D /* terme2.jpg */; };
+		E0679105269DCD690054C95D /* Galleria6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E06790C9269DCD690054C95D /* Galleria6.jpeg */; };
+		E0679106269DCD690054C95D /* castello4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790CA269DCD690054C95D /* castello4.jpg */; };
+		E0679107269DCD690054C95D /* terme1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790CB269DCD690054C95D /* terme1.jpg */; };
+		E0679108269DCD690054C95D /* Cartina.png in Resources */ = {isa = PBXBuildFile; fileRef = E06790CC269DCD690054C95D /* Cartina.png */; };
+		E0679109269DCD690054C95D /* Cartina.psd in Resources */ = {isa = PBXBuildFile; fileRef = E06790CD269DCD690054C95D /* Cartina.psd */; };
+		E067910A269DCD690054C95D /* castello1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790CE269DCD690054C95D /* castello1.jpg */; };
+		E067910B269DCD690054C95D /* terme4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790CF269DCD690054C95D /* terme4.jpg */; };
+		E067910C269DCD690054C95D /* cartina2.psd in Resources */ = {isa = PBXBuildFile; fileRef = E06790D0269DCD690054C95D /* cartina2.psd */; };
+		E067910D269DCD690054C95D /* castello3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790D1269DCD690054C95D /* castello3.jpg */; };
+		E067910E269DCD690054C95D /* castello2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790D2269DCD690054C95D /* castello2.jpg */; };
+		E067910F269DCD690054C95D /* Ciclabile05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790D3269DCD690054C95D /* Ciclabile05.jpg */; };
+		E0679110269DCD690054C95D /* stelvio1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790D4269DCD690054C95D /* stelvio1.jpg */; };
+		E0679111269DCD690054C95D /* Ciclabile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790D5269DCD690054C95D /* Ciclabile.jpg */; };
+		E0679112269DCD690054C95D /* teatro4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790D6269DCD690054C95D /* teatro4.jpg */; };
+		E0679113269DCD690054C95D /* lago4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790D7269DCD690054C95D /* lago4.jpg */; };
+		E0679114269DCD690054C95D /* Ciclabile04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790D8269DCD690054C95D /* Ciclabile04.jpg */; };
+		E0679115269DCD690054C95D /* stelvio2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790D9269DCD690054C95D /* stelvio2.jpg */; };
+		E0679116269DCD690054C95D /* stelvio3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790DA269DCD690054C95D /* stelvio3.jpg */; };
+		E0679117269DCD690054C95D /* Ciclabile03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790DB269DCD690054C95D /* Ciclabile03.jpg */; };
+		E0679118269DCD690054C95D /* lago3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790DC269DCD690054C95D /* lago3.jpg */; };
+		E0679119269DCD690054C95D /* teatro3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790DD269DCD690054C95D /* teatro3.jpg */; };
+		E067911A269DCD690054C95D /* teatro2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790DE269DCD690054C95D /* teatro2.jpg */; };
+		E067911B269DCD690054C95D /* lago2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790DF269DCD690054C95D /* lago2.jpg */; };
+		E067911C269DCD690054C95D /* Olivelli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790E0269DCD690054C95D /* Olivelli.jpg */; };
+		E067911D269DCD690054C95D /* Ciclabile02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790E1269DCD690054C95D /* Ciclabile02.jpg */; };
+		E067911E269DCD690054C95D /* stelvio4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790E2269DCD690054C95D /* stelvio4.jpg */; };
+		E067911F269DCD690054C95D /* teatro1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790E3269DCD690054C95D /* teatro1.jpg */; };
+		E0679120269DCD690054C95D /* lago1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790E4269DCD690054C95D /* lago1.jpg */; };
+		E0679121269DCD690054C95D /* Ciclabile01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790E5269DCD690054C95D /* Ciclabile01.jpg */; };
+		E0679122269DCD690054C95D /* parco4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790E6269DCD690054C95D /* parco4.jpg */; };
+		E0679123269DCD690054C95D /* museo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790E7269DCD690054C95D /* museo4.jpg */; };
+		E0679124269DCD690054C95D /* parco1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790E8269DCD690054C95D /* parco1.jpg */; };
+		E0679125269DCD690054C95D /* museo1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E06790E9269DCD690054C95D /* museo1.JPG */; };
+		E0679126269DCD690054C95D /* parco2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790EA269DCD690054C95D /* parco2.jpg */; };
+		E0679127269DCD690054C95D /* museo2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E06790EB269DCD690054C95D /* museo2.JPG */; };
+		E0679128269DCD690054C95D /* museo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790EC269DCD690054C95D /* museo3.jpg */; };
+		E0679129269DCD690054C95D /* parco3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06790ED269DCD690054C95D /* parco3.jpg */; };
+		E067912B269DD9EA0054C95D /* Home1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E067912A269DD9EA0054C95D /* Home1.jpg */; };
+		E067912D269DD9F10054C95D /* Home2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E067912C269DD9F10054C95D /* Home2.jpg */; };
+		E0958C6B268C81FE00CCB9A9 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0958C6A268C81FE00CCB9A9 /* WebView.swift */; };
+		E0D365ED2668D2120013B915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D365EC2668D2120013B915 /* AppDelegate.swift */; };
+		E0D365EF2668D2120013B915 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D365EE2668D2120013B915 /* SceneDelegate.swift */; };
+		E0D365F12668D2120013B915 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D365F02668D2120013B915 /* ContentView.swift */; };
+		E0D365F32668D2180013B915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0D365F22668D2180013B915 /* Assets.xcassets */; };
+		E0D365F62668D2180013B915 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0D365F52668D2180013B915 /* Preview Assets.xcassets */; };
+		E0D365F92668D2180013B915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0D365F72668D2180013B915 /* LaunchScreen.storyboard */; };
+		E0D366042668D21A0013B915 /* Valle_camonicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D366032668D21A0013B915 /* Valle_camonicaTests.swift */; };
+		E0D3660F2668D21A0013B915 /* Valle_camonicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D3660E2668D21A0013B915 /* Valle_camonicaUITests.swift */; };
+		E0DA863226F39D3100C61F91 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0DA863126F39D3100C61F91 /* logo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0D366002668D21A0013B915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0D365E12668D2120013B915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0D365E82668D2120013B915;
+			remoteInfo = "Valle camonica";
+		};
+		E0D3660B2668D21A0013B915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0D365E12668D2120013B915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0D365E82668D2120013B915;
+			remoteInfo = "Valle camonica";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0678F9C269DCA0F0054C95D /* Homepage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Homepage.html; sourceTree = "<group>"; };
+		E0678F9E269DCA370054C95D /* Fonti.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Fonti.html; sourceTree = "<group>"; };
+		E0678F9F269DCA370054C95D /* Preservazione.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Preservazione.html; sourceTree = "<group>"; };
+		E0678FA0269DCA370054C95D /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		E0678FA1269DCA370054C95D /* jquery.rwdImageMaps.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.rwdImageMaps.min.js; sourceTree = "<group>"; };
+		E0678FA2269DCA370054C95D /* Chi siamo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Chi siamo.html"; sourceTree = "<group>"; };
+		E0678FA3269DCA370054C95D /* indicazioni.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = indicazioni.html; sourceTree = "<group>"; };
+		E0678FA4269DCA370054C95D /* jquery.rwdImageMaps.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.rwdImageMaps.js; sourceTree = "<group>"; };
+		E0678FA5269DCA370054C95D /* ciclismo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ciclismo.html; sourceTree = "<group>"; };
+		E067902A269DCAD20054C95D /* CapoDiLago.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CapoDiLago.html; sourceTree = "<group>"; };
+		E067902B269DCAD20054C95D /* IncisioniCapo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = IncisioniCapo.html; sourceTree = "<group>"; };
+		E067902C269DCAD20054C95D /* ParcoLuine.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ParcoLuine.html; sourceTree = "<group>"; };
+		E067902D269DCAD20054C95D /* TermeBoario.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TermeBoario.html; sourceTree = "<group>"; };
+		E067902E269DCAD20054C95D /* MuseoWWI.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MuseoWWI.html; sourceTree = "<group>"; };
+		E067902F269DCAD20054C95D /* ParcoStelvio.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ParcoStelvio.html; sourceTree = "<group>"; };
+		E0679030269DCAD20054C95D /* CastelloBreno.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CastelloBreno.html; sourceTree = "<group>"; };
+		E0679031269DCAD20054C95D /* Anfiteatro.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Anfiteatro.html; sourceTree = "<group>"; };
+		E0679032269DCAD20054C95D /* ChiesaSantaMariaPisogne.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ChiesaSantaMariaPisogne.html; sourceTree = "<group>"; };
+		E0679033269DCAD20054C95D /* TorreVescovo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TorreVescovo.html; sourceTree = "<group>"; };
+		E06790B1269DCD690054C95D /* luine2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luine2.jpg; sourceTree = "<group>"; };
+		E06790B2269DCD690054C95D /* Chiesa3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chiesa3.jpg; sourceTree = "<group>"; };
+		E06790B3269DCD690054C95D /* Mappa ciclabile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mappa ciclabile.jpg"; sourceTree = "<group>"; };
+		E06790B4269DCD690054C95D /* Chiesa2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chiesa2.jpg; sourceTree = "<group>"; };
+		E06790B5269DCD690054C95D /* luine3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luine3.jpg; sourceTree = "<group>"; };
+		E06790B6269DCD690054C95D /* Galleria5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Galleria5.jpg; sourceTree = "<group>"; };
+		E06790B7269DCD690054C95D /* luine1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luine1.jpg; sourceTree = "<group>"; };
+		E06790B8269DCD690054C95D /* torre4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = torre4.jpg; sourceTree = "<group>"; };
+		E06790BB269DCD690054C95D /* CartinaIndicazioni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CartinaIndicazioni.jpg; sourceTree = "<group>"; };
+		E06790BC269DCD690054C95D /* Chiesa1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chiesa1.jpg; sourceTree = "<group>"; };
+		E06790BD269DCD690054C95D /* Galleria4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Galleria4.jpg; sourceTree = "<group>"; };
+		E06790BE269DCD690054C95D /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		E06790BF269DCD690054C95D /* luine4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luine4.jpg; sourceTree = "<group>"; };
+		E06790C0269DCD690054C95D /* torre1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = torre1.jpg; sourceTree = "<group>"; };
+		E06790C1269DCD690054C95D /* Chiesa4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chiesa4.jpg; sourceTree = "<group>"; };
+		E06790C2269DCD690054C95D /* Galleria1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Galleria1.jpg; sourceTree = "<group>"; };
+		E06790C3269DCD690054C95D /* Galleria3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Galleria3.jpg; sourceTree = "<group>"; };
+		E06790C4269DCD690054C95D /* torre2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = torre2.jpg; sourceTree = "<group>"; };
+		E06790C5269DCD690054C95D /* torre3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = torre3.jpg; sourceTree = "<group>"; };
+		E06790C6269DCD690054C95D /* Galleria2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Galleria2.jpg; sourceTree = "<group>"; };
+		E06790C7269DCD690054C95D /* terme3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = terme3.jpg; sourceTree = "<group>"; };
+		E06790C8269DCD690054C95D /* terme2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = terme2.jpg; sourceTree = "<group>"; };
+		E06790C9269DCD690054C95D /* Galleria6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Galleria6.jpeg; sourceTree = "<group>"; };
+		E06790CA269DCD690054C95D /* castello4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = castello4.jpg; sourceTree = "<group>"; };
+		E06790CB269DCD690054C95D /* terme1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = terme1.jpg; sourceTree = "<group>"; };
+		E06790CC269DCD690054C95D /* Cartina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cartina.png; sourceTree = "<group>"; };
+		E06790CD269DCD690054C95D /* Cartina.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cartina.psd; sourceTree = "<group>"; };
+		E06790CE269DCD690054C95D /* castello1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = castello1.jpg; sourceTree = "<group>"; };
+		E06790CF269DCD690054C95D /* terme4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = terme4.jpg; sourceTree = "<group>"; };
+		E06790D0269DCD690054C95D /* cartina2.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = cartina2.psd; sourceTree = "<group>"; };
+		E06790D1269DCD690054C95D /* castello3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = castello3.jpg; sourceTree = "<group>"; };
+		E06790D2269DCD690054C95D /* castello2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = castello2.jpg; sourceTree = "<group>"; };
+		E06790D3269DCD690054C95D /* Ciclabile05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ciclabile05.jpg; sourceTree = "<group>"; };
+		E06790D4269DCD690054C95D /* stelvio1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stelvio1.jpg; sourceTree = "<group>"; };
+		E06790D5269DCD690054C95D /* Ciclabile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ciclabile.jpg; sourceTree = "<group>"; };
+		E06790D6269DCD690054C95D /* teatro4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teatro4.jpg; sourceTree = "<group>"; };
+		E06790D7269DCD690054C95D /* lago4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lago4.jpg; sourceTree = "<group>"; };
+		E06790D8269DCD690054C95D /* Ciclabile04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ciclabile04.jpg; sourceTree = "<group>"; };
+		E06790D9269DCD690054C95D /* stelvio2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stelvio2.jpg; sourceTree = "<group>"; };
+		E06790DA269DCD690054C95D /* stelvio3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stelvio3.jpg; sourceTree = "<group>"; };
+		E06790DB269DCD690054C95D /* Ciclabile03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ciclabile03.jpg; sourceTree = "<group>"; };
+		E06790DC269DCD690054C95D /* lago3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lago3.jpg; sourceTree = "<group>"; };
+		E06790DD269DCD690054C95D /* teatro3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teatro3.jpg; sourceTree = "<group>"; };
+		E06790DE269DCD690054C95D /* teatro2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teatro2.jpg; sourceTree = "<group>"; };
+		E06790DF269DCD690054C95D /* lago2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lago2.jpg; sourceTree = "<group>"; };
+		E06790E0269DCD690054C95D /* Olivelli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Olivelli.jpg; sourceTree = "<group>"; };
+		E06790E1269DCD690054C95D /* Ciclabile02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ciclabile02.jpg; sourceTree = "<group>"; };
+		E06790E2269DCD690054C95D /* stelvio4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stelvio4.jpg; sourceTree = "<group>"; };
+		E06790E3269DCD690054C95D /* teatro1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teatro1.jpg; sourceTree = "<group>"; };
+		E06790E4269DCD690054C95D /* lago1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lago1.jpg; sourceTree = "<group>"; };
+		E06790E5269DCD690054C95D /* Ciclabile01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ciclabile01.jpg; sourceTree = "<group>"; };
+		E06790E6269DCD690054C95D /* parco4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parco4.jpg; sourceTree = "<group>"; };
+		E06790E7269DCD690054C95D /* museo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = museo4.jpg; sourceTree = "<group>"; };
+		E06790E8269DCD690054C95D /* parco1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parco1.jpg; sourceTree = "<group>"; };
+		E06790E9269DCD690054C95D /* museo1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = museo1.JPG; sourceTree = "<group>"; };
+		E06790EA269DCD690054C95D /* parco2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parco2.jpg; sourceTree = "<group>"; };
+		E06790EB269DCD690054C95D /* museo2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = museo2.JPG; sourceTree = "<group>"; };
+		E06790EC269DCD690054C95D /* museo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = museo3.jpg; sourceTree = "<group>"; };
+		E06790ED269DCD690054C95D /* parco3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parco3.jpg; sourceTree = "<group>"; };
+		E067912A269DD9EA0054C95D /* Home1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home1.jpg; sourceTree = "<group>"; };
+		E067912C269DD9F10054C95D /* Home2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home2.jpg; sourceTree = "<group>"; };
+		E0958C6A268C81FE00CCB9A9 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E0D365E92668D2120013B915 /* Valle camonica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Valle camonica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0D365EC2668D2120013B915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0D365EE2668D2120013B915 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E0D365F02668D2120013B915 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0D365F22668D2180013B915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0D365F52668D2180013B915 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0D365F82668D2180013B915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0D365FA2668D2180013B915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0D365FF2668D21A0013B915 /* Valle camonicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Valle camonicaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0D366032668D21A0013B915 /* Valle_camonicaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valle_camonicaTests.swift; sourceTree = "<group>"; };
+		E0D366052668D21A0013B915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0D3660A2668D21A0013B915 /* Valle camonicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Valle camonicaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0D3660E2668D21A0013B915 /* Valle_camonicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valle_camonicaUITests.swift; sourceTree = "<group>"; };
+		E0D366102668D21A0013B915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0DA863126F39D3100C61F91 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0D365E62668D2120013B915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0D365FC2668D21A0013B915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0D366072668D21A0013B915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E06790B0269DCD690054C95D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E06790CD269DCD690054C95D /* Cartina.psd */,
+				E06790D0269DCD690054C95D /* cartina2.psd */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		E0D365E02668D2120013B915 = {
+			isa = PBXGroup;
+			children = (
+				E0D365EB2668D2120013B915 /* Valle camonica */,
+				E0D366022668D21A0013B915 /* Valle camonicaTests */,
+				E0D3660D2668D21A0013B915 /* Valle camonicaUITests */,
+				E0D365EA2668D2120013B915 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0D365EA2668D2120013B915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0D365E92668D2120013B915 /* Valle camonica.app */,
+				E0D365FF2668D21A0013B915 /* Valle camonicaTests.xctest */,
+				E0D3660A2668D21A0013B915 /* Valle camonicaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0D365EB2668D2120013B915 /* Valle camonica */ = {
+			isa = PBXGroup;
+			children = (
+				E0D365EC2668D2120013B915 /* AppDelegate.swift */,
+				E0D365EE2668D2120013B915 /* SceneDelegate.swift */,
+				E0D365F02668D2120013B915 /* ContentView.swift */,
+				E0958C6A268C81FE00CCB9A9 /* WebView.swift */,
+				E0D365F72668D2180013B915 /* LaunchScreen.storyboard */,
+				E0D365F22668D2180013B915 /* Assets.xcassets */,
+				E0DA863126F39D3100C61F91 /* logo.jpg */,
+				E06790C2269DCD690054C95D /* Galleria1.jpg */,
+				E06790BE269DCD690054C95D /* favicon.ico */,
+				E06790BD269DCD690054C95D /* Galleria4.jpg */,
+				E06790B4269DCD690054C95D /* Chiesa2.jpg */,
+				E06790B3269DCD690054C95D /* Mappa ciclabile.jpg */,
+				E06790BF269DCD690054C95D /* luine4.jpg */,
+				E06790C6269DCD690054C95D /* Galleria2.jpg */,
+				E06790C7269DCD690054C95D /* terme3.jpg */,
+				E06790B1269DCD690054C95D /* luine2.jpg */,
+				E06790BB269DCD690054C95D /* CartinaIndicazioni.jpg */,
+				E06790BC269DCD690054C95D /* Chiesa1.jpg */,
+				E06790C0269DCD690054C95D /* torre1.jpg */,
+				E06790C5269DCD690054C95D /* torre3.jpg */,
+				E06790C8269DCD690054C95D /* terme2.jpg */,
+				E06790C9269DCD690054C95D /* Galleria6.jpeg */,
+				E06790B2269DCD690054C95D /* Chiesa3.jpg */,
+				E06790B5269DCD690054C95D /* luine3.jpg */,
+				E06790C1269DCD690054C95D /* Chiesa4.jpg */,
+				E06790C3269DCD690054C95D /* Galleria3.jpg */,
+				E06790C4269DCD690054C95D /* torre2.jpg */,
+				E06790B6269DCD690054C95D /* Galleria5.jpg */,
+				E06790B7269DCD690054C95D /* luine1.jpg */,
+				E06790B8269DCD690054C95D /* torre4.jpg */,
+				E06790CA269DCD690054C95D /* castello4.jpg */,
+				E06790CB269DCD690054C95D /* terme1.jpg */,
+				E06790CC269DCD690054C95D /* Cartina.png */,
+				E06790CE269DCD690054C95D /* castello1.jpg */,
+				E06790CF269DCD690054C95D /* terme4.jpg */,
+				E06790D1269DCD690054C95D /* castello3.jpg */,
+				E06790D2269DCD690054C95D /* castello2.jpg */,
+				E06790D3269DCD690054C95D /* Ciclabile05.jpg */,
+				E06790D4269DCD690054C95D /* stelvio1.jpg */,
+				E06790D5269DCD690054C95D /* Ciclabile.jpg */,
+				E06790D6269DCD690054C95D /* teatro4.jpg */,
+				E06790D7269DCD690054C95D /* lago4.jpg */,
+				E06790D8269DCD690054C95D /* Ciclabile04.jpg */,
+				E06790D9269DCD690054C95D /* stelvio2.jpg */,
+				E06790DA269DCD690054C95D /* stelvio3.jpg */,
+				E06790DB269DCD690054C95D /* Ciclabile03.jpg */,
+				E06790DC269DCD690054C95D /* lago3.jpg */,
+				E06790DD269DCD690054C95D /* teatro3.jpg */,
+				E06790DE269DCD690054C95D /* teatro2.jpg */,
+				E06790DF269DCD690054C95D /* lago2.jpg */,
+				E06790E0269DCD690054C95D /* Olivelli.jpg */,
+				E06790E1269DCD690054C95D /* Ciclabile02.jpg */,
+				E06790E2269DCD690054C95D /* stelvio4.jpg */,
+				E06790E3269DCD690054C95D /* teatro1.jpg */,
+				E06790E4269DCD690054C95D /* lago1.jpg */,
+				E06790E5269DCD690054C95D /* Ciclabile01.jpg */,
+				E06790E6269DCD690054C95D /* parco4.jpg */,
+				E06790E7269DCD690054C95D /* museo4.jpg */,
+				E067912A269DD9EA0054C95D /* Home1.jpg */,
+				E067912C269DD9F10054C95D /* Home2.jpg */,
+				E06790E8269DCD690054C95D /* parco1.jpg */,
+				E06790E9269DCD690054C95D /* museo1.JPG */,
+				E06790EA269DCD690054C95D /* parco2.jpg */,
+				E06790EB269DCD690054C95D /* museo2.JPG */,
+				E06790EC269DCD690054C95D /* museo3.jpg */,
+				E06790ED269DCD690054C95D /* parco3.jpg */,
+				E06790B0269DCD690054C95D /* images */,
+				E0678F9C269DCA0F0054C95D /* Homepage.html */,
+				E0678FA2269DCA370054C95D /* Chi siamo.html */,
+				E0678FA5269DCA370054C95D /* ciclismo.html */,
+				E0678F9E269DCA370054C95D /* Fonti.html */,
+				E0678FA3269DCA370054C95D /* indicazioni.html */,
+				E0678F9F269DCA370054C95D /* Preservazione.html */,
+				E0678FA4269DCA370054C95D /* jquery.rwdImageMaps.js */,
+				E0678FA1269DCA370054C95D /* jquery.rwdImageMaps.min.js */,
+				E0678FA0269DCA370054C95D /* style.css */,
+				E067902A269DCAD20054C95D /* CapoDiLago.html */,
+				E067902B269DCAD20054C95D /* IncisioniCapo.html */,
+				E067902C269DCAD20054C95D /* ParcoLuine.html */,
+				E067902D269DCAD20054C95D /* TermeBoario.html */,
+				E067902E269DCAD20054C95D /* MuseoWWI.html */,
+				E067902F269DCAD20054C95D /* ParcoStelvio.html */,
+				E0679030269DCAD20054C95D /* CastelloBreno.html */,
+				E0679031269DCAD20054C95D /* Anfiteatro.html */,
+				E0679032269DCAD20054C95D /* ChiesaSantaMariaPisogne.html */,
+				E0679033269DCAD20054C95D /* TorreVescovo.html */,
+				E0D365FA2668D2180013B915 /* Info.plist */,
+				E0D365F42668D2180013B915 /* Preview Content */,
+			);
+			path = "Valle camonica";
+			sourceTree = "<group>";
+		};
+		E0D365F42668D2180013B915 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0D365F52668D2180013B915 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0D366022668D21A0013B915 /* Valle camonicaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0D366032668D21A0013B915 /* Valle_camonicaTests.swift */,
+				E0D366052668D21A0013B915 /* Info.plist */,
+			);
+			path = "Valle camonicaTests";
+			sourceTree = "<group>";
+		};
+		E0D3660D2668D21A0013B915 /* Valle camonicaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0D3660E2668D21A0013B915 /* Valle_camonicaUITests.swift */,
+				E0D366102668D21A0013B915 /* Info.plist */,
+			);
+			path = "Valle camonicaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0D365E82668D2120013B915 /* Valle camonica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0D366132668D21A0013B915 /* Build configuration list for PBXNativeTarget "Valle camonica" */;
+			buildPhases = (
+				E0D365E52668D2120013B915 /* Sources */,
+				E0D365E62668D2120013B915 /* Frameworks */,
+				E0D365E72668D2120013B915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Valle camonica";
+			productName = "Valle camonica";
+			productReference = E0D365E92668D2120013B915 /* Valle camonica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0D365FE2668D21A0013B915 /* Valle camonicaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0D366162668D21A0013B915 /* Build configuration list for PBXNativeTarget "Valle camonicaTests" */;
+			buildPhases = (
+				E0D365FB2668D21A0013B915 /* Sources */,
+				E0D365FC2668D21A0013B915 /* Frameworks */,
+				E0D365FD2668D21A0013B915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0D366012668D21A0013B915 /* PBXTargetDependency */,
+			);
+			name = "Valle camonicaTests";
+			productName = "Valle camonicaTests";
+			productReference = E0D365FF2668D21A0013B915 /* Valle camonicaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0D366092668D21A0013B915 /* Valle camonicaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0D366192668D21A0013B915 /* Build configuration list for PBXNativeTarget "Valle camonicaUITests" */;
+			buildPhases = (
+				E0D366062668D21A0013B915 /* Sources */,
+				E0D366072668D21A0013B915 /* Frameworks */,
+				E0D366082668D21A0013B915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0D3660C2668D21A0013B915 /* PBXTargetDependency */,
+			);
+			name = "Valle camonicaUITests";
+			productName = "Valle camonicaUITests";
+			productReference = E0D3660A2668D21A0013B915 /* Valle camonicaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0D365E12668D2120013B915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E0D365E82668D2120013B915 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					E0D365FE2668D21A0013B915 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = E0D365E82668D2120013B915;
+					};
+					E0D366092668D21A0013B915 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = E0D365E82668D2120013B915;
+					};
+				};
+			};
+			buildConfigurationList = E0D365E42668D2120013B915 /* Build configuration list for PBXProject "Valle camonica" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0D365E02668D2120013B915;
+			productRefGroup = E0D365EA2668D2120013B915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0D365E82668D2120013B915 /* Valle camonica */,
+				E0D365FE2668D21A0013B915 /* Valle camonicaTests */,
+				E0D366092668D21A0013B915 /* Valle camonicaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0D365E72668D2120013B915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0679111269DCD690054C95D /* Ciclabile.jpg in Resources */,
+				E06790FF269DCD690054C95D /* Galleria3.jpg in Resources */,
+				E06790F4269DCD690054C95D /* luine1.jpg in Resources */,
+				E067911A269DCD690054C95D /* teatro2.jpg in Resources */,
+				E0DA863226F39D3100C61F91 /* logo.jpg in Resources */,
+				E067910F269DCD690054C95D /* Ciclabile05.jpg in Resources */,
+				E06790FB269DCD690054C95D /* luine4.jpg in Resources */,
+				E06790EE269DCD690054C95D /* luine2.jpg in Resources */,
+				E067903C269DCAD20054C95D /* ChiesaSantaMariaPisogne.html in Resources */,
+				E06790F3269DCD690054C95D /* Galleria5.jpg in Resources */,
+				E06790F0269DCD690054C95D /* Mappa ciclabile.jpg in Resources */,
+				E0678FAB269DCA370054C95D /* indicazioni.html in Resources */,
+				E0678FA7269DCA370054C95D /* Preservazione.html in Resources */,
+				E0679126269DCD690054C95D /* parco2.jpg in Resources */,
+				E0679119269DCD690054C95D /* teatro3.jpg in Resources */,
+				E0679038269DCAD20054C95D /* MuseoWWI.html in Resources */,
+				E06790F8269DCD690054C95D /* Chiesa1.jpg in Resources */,
+				E0679102269DCD690054C95D /* Galleria2.jpg in Resources */,
+				E0D365F92668D2180013B915 /* LaunchScreen.storyboard in Resources */,
+				E067911F269DCD690054C95D /* teatro1.jpg in Resources */,
+				E067911C269DCD690054C95D /* Olivelli.jpg in Resources */,
+				E0679109269DCD690054C95D /* Cartina.psd in Resources */,
+				E0679039269DCAD20054C95D /* ParcoStelvio.html in Resources */,
+				E0679124269DCD690054C95D /* parco1.jpg in Resources */,
+				E0679036269DCAD20054C95D /* ParcoLuine.html in Resources */,
+				E0679121269DCD690054C95D /* Ciclabile01.jpg in Resources */,
+				E067903A269DCAD20054C95D /* CastelloBreno.html in Resources */,
+				E0678FAD269DCA370054C95D /* ciclismo.html in Resources */,
+				E06790F1269DCD690054C95D /* Chiesa2.jpg in Resources */,
+				E0679100269DCD690054C95D /* torre2.jpg in Resources */,
+				E0679113269DCD690054C95D /* lago4.jpg in Resources */,
+				E067912D269DD9F10054C95D /* Home2.jpg in Resources */,
+				E067912B269DD9EA0054C95D /* Home1.jpg in Resources */,
+				E0678FA8269DCA370054C95D /* style.css in Resources */,
+				E0679117269DCD690054C95D /* Ciclabile03.jpg in Resources */,
+				E0679101269DCD690054C95D /* torre3.jpg in Resources */,
+				E0D365F62668D2180013B915 /* Preview Assets.xcassets in Resources */,
+				E067910D269DCD690054C95D /* castello3.jpg in Resources */,
+				E0679125269DCD690054C95D /* museo1.JPG in Resources */,
+				E0679110269DCD690054C95D /* stelvio1.jpg in Resources */,
+				E0679107269DCD690054C95D /* terme1.jpg in Resources */,
+				E067903B269DCAD20054C95D /* Anfiteatro.html in Resources */,
+				E0678FA6269DCA370054C95D /* Fonti.html in Resources */,
+				E0679114269DCD690054C95D /* Ciclabile04.jpg in Resources */,
+				E067911E269DCD690054C95D /* stelvio4.jpg in Resources */,
+				E0678FAA269DCA370054C95D /* Chi siamo.html in Resources */,
+				E0679118269DCD690054C95D /* lago3.jpg in Resources */,
+				E0679129269DCD690054C95D /* parco3.jpg in Resources */,
+				E0679123269DCD690054C95D /* museo4.jpg in Resources */,
+				E06790FE269DCD690054C95D /* Galleria1.jpg in Resources */,
+				E067911D269DCD690054C95D /* Ciclabile02.jpg in Resources */,
+				E0679034269DCAD20054C95D /* CapoDiLago.html in Resources */,
+				E0679104269DCD690054C95D /* terme2.jpg in Resources */,
+				E067911B269DCD690054C95D /* lago2.jpg in Resources */,
+				E0679037269DCAD20054C95D /* TermeBoario.html in Resources */,
+				E0678FAC269DCA370054C95D /* jquery.rwdImageMaps.js in Resources */,
+				E0679115269DCD690054C95D /* stelvio2.jpg in Resources */,
+				E06790EF269DCD690054C95D /* Chiesa3.jpg in Resources */,
+				E0679116269DCD690054C95D /* stelvio3.jpg in Resources */,
+				E0679106269DCD690054C95D /* castello4.jpg in Resources */,
+				E06790F9269DCD690054C95D /* Galleria4.jpg in Resources */,
+				E0679112269DCD690054C95D /* teatro4.jpg in Resources */,
+				E06790FD269DCD690054C95D /* Chiesa4.jpg in Resources */,
+				E06790F7269DCD690054C95D /* CartinaIndicazioni.jpg in Resources */,
+				E0678F9D269DCA0F0054C95D /* Homepage.html in Resources */,
+				E06790FC269DCD690054C95D /* torre1.jpg in Resources */,
+				E0678FA9269DCA370054C95D /* jquery.rwdImageMaps.min.js in Resources */,
+				E0679128269DCD690054C95D /* museo3.jpg in Resources */,
+				E0679122269DCD690054C95D /* parco4.jpg in Resources */,
+				E0679103269DCD690054C95D /* terme3.jpg in Resources */,
+				E067910E269DCD690054C95D /* castello2.jpg in Resources */,
+				E067910B269DCD690054C95D /* terme4.jpg in Resources */,
+				E0679127269DCD690054C95D /* museo2.JPG in Resources */,
+				E0679120269DCD690054C95D /* lago1.jpg in Resources */,
+				E067910A269DCD690054C95D /* castello1.jpg in Resources */,
+				E0679105269DCD690054C95D /* Galleria6.jpeg in Resources */,
+				E06790F5269DCD690054C95D /* torre4.jpg in Resources */,
+				E067903D269DCAD20054C95D /* TorreVescovo.html in Resources */,
+				E06790F2269DCD690054C95D /* luine3.jpg in Resources */,
+				E0679108269DCD690054C95D /* Cartina.png in Resources */,
+				E0D365F32668D2180013B915 /* Assets.xcassets in Resources */,
+				E0679035269DCAD20054C95D /* IncisioniCapo.html in Resources */,
+				E06790FA269DCD690054C95D /* favicon.ico in Resources */,
+				E067910C269DCD690054C95D /* cartina2.psd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0D365FD2668D21A0013B915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0D366082668D21A0013B915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0D365E52668D2120013B915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D365ED2668D2120013B915 /* AppDelegate.swift in Sources */,
+				E0958C6B268C81FE00CCB9A9 /* WebView.swift in Sources */,
+				E0D365EF2668D2120013B915 /* SceneDelegate.swift in Sources */,
+				E0D365F12668D2120013B915 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0D365FB2668D21A0013B915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D366042668D21A0013B915 /* Valle_camonicaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0D366062668D21A0013B915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D3660F2668D21A0013B915 /* Valle_camonicaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0D366012668D21A0013B915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0D365E82668D2120013B915 /* Valle camonica */;
+			targetProxy = E0D366002668D21A0013B915 /* PBXContainerItemProxy */;
+		};
+		E0D3660C2668D21A0013B915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0D365E82668D2120013B915 /* Valle camonica */;
+			targetProxy = E0D3660B2668D21A0013B915 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0D365F72668D2180013B915 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0D365F82668D2180013B915 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0D366112668D21A0013B915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E0D366122668D21A0013B915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0D366142668D21A0013B915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Valle camonica/Preview Content\"";
+				DEVELOPMENT_TEAM = SAXH453496;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Valle camonica/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriele-Gervasoni.Valle-camonica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E0D366152668D21A0013B915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Valle camonica/Preview Content\"";
+				DEVELOPMENT_TEAM = SAXH453496;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Valle camonica/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriele-Gervasoni.Valle-camonica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E0D366172668D21A0013B915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAXH453496;
+				INFOPLIST_FILE = "Valle camonicaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriele-Gervasoni.Valle-camonicaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Valle camonica.app/Valle camonica";
+			};
+			name = Debug;
+		};
+		E0D366182668D21A0013B915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAXH453496;
+				INFOPLIST_FILE = "Valle camonicaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriele-Gervasoni.Valle-camonicaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Valle camonica.app/Valle camonica";
+			};
+			name = Release;
+		};
+		E0D3661A2668D21A0013B915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAXH453496;
+				INFOPLIST_FILE = "Valle camonicaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriele-Gervasoni.Valle-camonicaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Valle camonica";
+			};
+			name = Debug;
+		};
+		E0D3661B2668D21A0013B915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAXH453496;
+				INFOPLIST_FILE = "Valle camonicaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriele-Gervasoni.Valle-camonicaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Valle camonica";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0D365E42668D2120013B915 /* Build configuration list for PBXProject "Valle camonica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0D366112668D21A0013B915 /* Debug */,
+				E0D366122668D21A0013B915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0D366132668D21A0013B915 /* Build configuration list for PBXNativeTarget "Valle camonica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0D366142668D21A0013B915 /* Debug */,
+				E0D366152668D21A0013B915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0D366162668D21A0013B915 /* Build configuration list for PBXNativeTarget "Valle camonicaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0D366172668D21A0013B915 /* Debug */,
+				E0D366182668D21A0013B915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0D366192668D21A0013B915 /* Build configuration list for PBXNativeTarget "Valle camonicaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0D3661A2668D21A0013B915 /* Debug */,
+				E0D3661B2668D21A0013B915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0D365E12668D2120013B915 /* Project object */;
+}

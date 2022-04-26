@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <title>Ciclismo in Valcamonica</title>
+    <script type="text/javascript">
+      function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+              x.className += " responsive";
+          } else {
+              x.className = "topnav";
+          }
+      }
+
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides((slideIndex += n));
+          }
+
+          function currentSlide(n) {
+            showSlides((slideIndex = n));
+          }
+
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {
+              slideIndex = 1;
+            }
+            if (n < 1) {
+              slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+          }
+        </script>
+
+  </head>
+  <body>
+      
+      
+      
+
+   <!-- <div class="topnav" id="myTopnav">
+        <a href="ciclismo.html" class="active">Ciclismo</a>
+      <div class="dropdown">
+        <button class="dropbtn">Luoghi 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="ChiesaSantaMariaPisogne.html">Chiesa di Santa Maria</a>
+            <a href="TorreVescovo.html">Torre Del Vescovo</a>
+            <a href="TermeBoario.html">Terme di Boario</a>
+            <a href="CapoDiLago.html">Capo di lago</a>
+            <a href="ParcoLuine.html">Parco di Luine</a>
+            <a href="Anfiteatro.html">Anfiteatro</a>
+            <a href="CastelloBreno.html">Castello di Breno</a>
+            <a href="IncisioniCapo.html">Incisioni Capo di Ponte</a>
+            <a href="MuseoWWI.html">Museo Prima Guerra Mondiale</a>
+            <a href="ParcoStelvio.html">Parco dello Stelvio</a>
+        </div>
+      </div> 
+
+
+  
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    -->
+    <div class="wrapper">
+     <!-- <h1>Ciclismo in Valcamonica</h1>-->
+      <hr />
+      <p>
+        La valle camonica è attraversata dalla pista ciclabile Un percorso
+        ciclistico composto dall’unificazione dei tratti ciclabili delle aree
+        citate: oltre 280 chilometri attraverso le Province di Brescia, Bergamo,
+        Cremona e Mantova. Lo scopo è la realizzazione di un percorso ciclabile
+        di valenza sovra regionale in grado di valorizzare i territori, la
+        mobilità dolce ed il turismo sostenibile del bacino dell’Oglio, compreso
+        il Lago di Iseo, dal Passo del Tonale sino al fiume Po. Tutta la
+        ciclabile della Valle Camonica, eccezion fatta per il tratto a nord di
+        Edolo, è capillarmente servita dalla storica linea ferroviaria di
+        Trenord “Brescia – Iseo – Edolo”. Presso tutte le stazioni ferroviarie
+        teoricamente è consentito caricare la propria bicicletta sui vagoni,
+        concludendo la gita sui pedali in modo completamente ecologico e
+        sostenibile. Fanno eccezione i gruppi numerosi e organizzati che
+        necessitano di prenotazione per poter aggiungere un apposito vagone
+        bikes.
+      </p>
+      <div class="container">
+        <div class="mySlides" style="display: block">
+          <img src="Ciclabile.jpg" class="center" alt="Cicalbile1"/>
+        </div>
+        <div class="mySlides">
+          <img src="Ciclabile01.jpg" class="center" alt="Cicalbile2"/>
+        </div>
+        <div class="mySlides">
+          <img src="Ciclabile02.jpg" class="center" alt="Cicalbile3"/>
+        </div>
+        <div class="mySlides">
+          <img src="Ciclabile03.jpg" class="center" alt="Cicalbile4"/>
+        </div>
+        <div class="mySlides">
+          <img src="Ciclabile04.jpg" class="center" alt="Cicalbile5"/>
+        </div>
+        <div class="mySlides">
+          <img src="Ciclabile05.jpg" class="center" alt="Cicalbile6"/>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <br />
+
+        <div class="row">
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="Ciclabile.jpg"
+              style="width: 100%"
+              onclick="currentSlide(1)"
+              alt="Ciclabile"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="Ciclabile01.jpg"
+              style="width: 100%"
+              onclick="currentSlide(2)"
+              alt="Ciclabile01"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="Ciclabile02.jpg"
+              style="width: 100%"
+              onclick="currentSlide(3)"
+              alt="Ciclabile02"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="Ciclabile03.jpg"
+              style="width: 100%"
+              onclick="currentSlide(4)"
+              alt="Ciclabile03"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="Ciclabile04.jpg"
+              style="width: 100%"
+              onclick="currentSlide(5)"
+              alt="Ciclabile04"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="Ciclabile05.jpg"
+              style="width: 100%"
+              onclick="currentSlide(6)"
+              alt="Ciclabile05"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div
+        style="
+        box-shadow:  10px  10px 5px #dedede,
+                      -10px -10px 5px #dedede,
+                       10px -10px 5px #dedede,
+                      -10px  10px 5px #dedede;
+          background-color: var(--colorcontainer);;
+          padding-top: 2px;
+          padding-bottom: 2px;
+          margin-bottom: 20px;
+        "
+      >
+        <h3 style="
+            margin-left: 38px;">
+          Mappa percorso ciclabili:
+        </h3>
+      </div><br>
+      <div
+        style="
+        box-shadow:  10px  10px 5px #dedede,
+                      -10px -10px 5px #dedede,
+                       10px -10px 5px #dedede,
+                      -10px  10px 5px #dedede;
+          background-color: #ddeddf;
+          padding-top: 2px;
+          padding-bottom: 2px;
+          margin-bottom: 20px;
+        "
+      >
+      <h3 style="
+          margin-left: 10px;">
+        Legenda:
+      </h3>
+      <ul>
+        <li>Arancione = Sterrato</li>
+        <li>Grigio Chiaro = Asfalto</li>
+        <li>Grigio Scuro = Strada</li>
+      </ul>
+      </div>
+
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=16npbMpTxmupi4AHG4H4Xt6DxmrcUR_bs" width="100%" height="480"></iframe>
+      
+    </div>
+    <footer class="homefooter" style="margin-top: -1px">
+      <div id="colonne" style="overflow: hidden">
+        <div class="fcol">
+          <h4 style="text-align: center; margin-bottom: -3px">Gruppo BGB</h4>
+          <p style="font-size: 13px">
+            Applicazione creata da Gervasoni Gabriele su base
+            del sito creato dal Gruppo Bontempi, Gervasoni, Bottò per il progetto di
+            educazione civica del secondo quadrimestre anno scolastico
+            2020-2021, argomento scelto: I luoghi d'interesse della Valcamonica
+          </p>
+        </div>
+        <div class="fcol">
+          <h4 style="text-align: center">Fonti</h4>
+          <p style="font-size: 12px">Fonti qui sulla pagina home</p>
+        </div>
+        <div class="fcol">
+          <h4>Contattaci</h4>
+            <li style="list-style-type: none;">
+                <h6 class="Contatti" >(Tieni premuto sui nomi)</h6>
+              <a
+                class="Contatti"
+                href="mailto:fabio.botto-1920-2a-inf@olivelliputelli.it"
+                >Fabio Bottò</a
+              >
+            </li><br>
+            <li style="list-style-type: none">
+              <a
+                class="Contatti"
+                href="mailto:pietro.bobntempi-1920-2a-inf@olivelliputelli.it"
+                >Pietro Bontempi</a
+              >
+            </li><br>
+            <li style="list-style-type: none">
+              <a
+                class="Contatti"
+                href="mailto:gabriele.gervasoni-1920-2a-inf@olivelliputelli.it"
+                >Gabriele Gervasoni</a
+              >
+            </li>
+        </div>
+      </div>
+      <div style="text-align: center; padding-bottom: 12px; padding-top: 15px">
+        <p style="font-size: 12px">All rights reserved by @GruppoBGB 2021</p>
+      </div>
+    </footer>
+  </body>
+</html>
